@@ -15,10 +15,14 @@ import { environment } from '../environments/environment';
 import { reducers, metaReducers } from './_redux/reducers';
 
 import { AppComponent } from './app.component';
+import { CounterComponent } from './counter.component';
+import { ControlsComponent } from './controls.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterComponent,
+    ControlsComponent
   ],
   imports: [
     CommonModule,
